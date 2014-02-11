@@ -1,0 +1,37 @@
+body{
+	font:14px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button{
+	padding:5px 10px;
+	border:1px solid #B6AFA9;
+	border-radius:5px;
+}
+
+#loading{
+	max-width:160px;;
+	background-color:#26466D;
+	padding:10px;
+	color:#fff;
+	border:1px solid #B6AFA9;
+}
+
+img{
+	max-width:99%;
+	border:1px solid #B6AFA9;
+	margin-bottom:5px;
+}
+
+p{
+	margin: 5px 0;
+	line-height: 18px;
+}
+
+a{
+	color:#FFA54F;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#B6AFA9;
+}

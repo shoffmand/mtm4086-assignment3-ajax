@@ -1,0 +1,54 @@
+/*-- Normalize --*/
+@import 'normalize';
+/*These fonts are for free and can be use for commercial and non-commercial purposes. These aren't professionally made--only beta test. Let me know if there are problems with spaces and kernings.*/
+@font-face {
+    font-family: 'florante_at_lauraregular';
+    src: url('../fonts/FLORLRG_-webfont.eot');
+    src: url('../fonts/FLORLRG_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FLORLRG_-webfont.woff') format('woff'),
+         url('../fonts/FLORLRG_-webfont.ttf') format('truetype'),
+         url('../fonts/FLORLRG_-webfont.svg#florante_at_lauraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*  Font Variables  */
+$heading-font: 'florante_at_lauraregular', "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+$body-font: Ariel, sans-serif;
+$font-colour:#444;
+
+/*  Colour Variables  */
+$primary-colour:#F0F8FF;
+
+/*  Other Variables  */
+$borderstyle:1px solid #FFA500;
+$boxshadow:0 0 10px #555;
+
+/*  General styling  */
+body{
+	font-family:$body-font;
+	background-color:$primary-colour;
+	color:$font-colour;
+	margin:0 auto;
+}
+
+h1{
+	font-family:$heading-font;
+	color:$font-colour;
+}
+
+img{
+	border:$borderstyle;
+	box-shadow:$boxshadow;
+	max-width:100%;
+}
+
+#container{
+	max-width:960px;
+	margin:0 auto;
+}
+
+#article-feed{
+	
+}
