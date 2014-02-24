@@ -1,16 +1,26 @@
 [
 	{
-	    "title" : "This is the first title", 
-	    "caption"   : "and the first caption underneath it",
-	    "url" : "coolthing.html",
-	    "imageUrl" : "img/file5181338228603.jpg",
-	    "credits": "Why me, of course."
+	    "title" : "Close up of a burr", 
+	    "caption"   : "A photo I took at Hog's Back Falls, Ottawa ON.",
+	    "imageUrl" : "img/burr.jpg",
+		"author": "by Susanna"
 	},
 	{
-	    "title" : "This is the second title", 
-	    "caption"   : "and the second caption underneath it",
-	    "url" : "http://google.com",
-	   	"imageUrl" : "img/1388344538s2wq5.jpg",
-	    "credits": "You might of guessed it, I did it as well."
+	    "title" : "Ice Sculpture 1", 
+	    "caption"   : "A photo I took last year.",
+	   	"imageUrl" : "img/face.jpg",
+		"author": "by Susanna"
+	},
+	{
+	    "title" : "Ice Sculpture 2", 
+	    "caption"   : "Another photo I took last year.",
+	   	"imageUrl" : "img/ice.jpg",
+		"author": "by Susanna"
+	},
+	{
+	    "title" : "Hog's Back Nature", 
+	    "caption"   : "Also a photo I took at Hog's Back Falls.",
+	   	"imageUrl" : "img/squrrel.jpg",
+		"author": "by Susanna"
 	}
 ]
